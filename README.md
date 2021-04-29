@@ -1,4 +1,4 @@
-# MostProblemsWithSolutions
+# Most Problems With Solutions
 NodeJS throws ENOSPC (Error no space) when there is not enough space available to run the application.
   
 	-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
